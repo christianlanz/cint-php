@@ -20,7 +20,6 @@ class Panelist {
 
 		foreach ($required as $field) {
 			if (empty($data[$field])) {
-				var_dump($data);
 				throw new CintException("`{$field}` is a required field");
 			}
 		}
