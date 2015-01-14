@@ -1,0 +1,21 @@
+{
+    "name": "lazyshot/cint-php",
+    "description": "PHP Cint Implementation for Push-Bash Panels",
+	"type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "5.1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bryan Peterson",
+            "email": "lazyshot@gmail.com"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+			"Cint\\": "src"
+		}
+	},
+    "minimum-stability": "alpha"
+}
