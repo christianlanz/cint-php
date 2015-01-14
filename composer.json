@@ -1,5 +1,5 @@
 {
-    "name": "lazyshot/cint-php",
+    "name": "louddoor/cint-php",
     "description": "PHP Cint Implementation for Push-Bash Panels",
 	"type": "library",
     "require": {
