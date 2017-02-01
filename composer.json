@@ -4,7 +4,7 @@
     "description": "PHP Cint Implementation for Push-based Panels",
 	"type": "library",
     "require": {
-        "guzzlehttp/guzzle": ">=5.1.0"
+        "guzzlehttp/guzzle": "^6.2"
     },
     "license": "MIT",
     "authors": [
