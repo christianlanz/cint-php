@@ -24,8 +24,8 @@ class IO {
 
 	public static function request($method, $url, $options = []) {
 		$client = static::getInstance();
-		$req = $client->createRequest($method, $url, $options);
-		return $client->send($req);
+
+		return $client->request($method, $url, $options);
 	}
 }
 
